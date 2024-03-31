@@ -1,0 +1,61 @@
+
+html{
+  position:relative; 
+  min-height: 100%;
+}
+html,body{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.footer {
+    position:fixed;
+    position: absolute;
+    margin-bottom: 0px;
+    height: 30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(176, 208, 230);
+    color: black;
+    text-align: center;
+  }
+  .contact{
+      margin:0;
+      padding:0;
+      align-items:initial;
+      margin-bottom: 0px;
+    }
+    .wrapper {
+      text-align: center;
+  }
+  
+  .button {
+      position: absolute;
+  }
+
+  .card1 {
+    margin-top: 3em;
+    width: 25em;
+    margin-bottom: 1em;
+  }
+  .card-img-top{
+    height: 550px;
+  }
+  .btn1{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 30px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .clear { clear: both; height: 60px; }
